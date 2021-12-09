@@ -4,7 +4,15 @@ a2c70da8b780ac7f8824943bde15ecf546e34e83ec81314df825363fb6856c30678e32bc57cdc6fb
 
 ###
 
-POST http://localhost:3000/login
+POST http://localhost:4000/token
+Content-Type: application/json
+
+{
+	"token": "a2c70da8b780ac7f8824943bde15ecf546e34e83ec81314df825363fb6856c30678e32bc57cdc6fbe2a3ca77791332ad581a7376a17c626e7e7e4991a52fa399"
+}
+
+###
+POST http://localhost:4000/login
 
 Content-Type: application/json
 
